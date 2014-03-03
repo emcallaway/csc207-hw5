@@ -29,18 +29,12 @@ public class BinarySearch
         int mid = lower + (upper-lower)/2;
         
         if (vals[mid]<i)
-          {
             lower = mid +1;
-          }
         else if (vals[mid]>i)
-          {
             upper = mid -1;
-          }
         else
-          {
             return mid;
-          }
-      }
+      } // while (lower <= upper)
     throw new Exception("Val not in array");    
-  } // binarySearch
-}
+  } // binarySearch (i, vals)
+} // class BinarySearch
