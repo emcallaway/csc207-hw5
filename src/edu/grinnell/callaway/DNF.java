@@ -1,7 +1,5 @@
 package edu.grinnell.callaway;
 
-import java.util.Arrays;
-
 public class DNF
 {
   
